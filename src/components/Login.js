@@ -14,7 +14,7 @@ function Login({ setIsLoggedIn }) {
       [e.target.name]: e.target.value,
     });
   }
-
+  //function to handle submit
   function handleSubmit(e) {
     e.preventDefault();
 
